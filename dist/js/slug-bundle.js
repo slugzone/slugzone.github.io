@@ -5,7 +5,14 @@ const React = require('react');
 
 const ReactDOM = require('react-dom');
 
-ReactDOM.render(React.createElement("div", null, "Hello World"), document.getElementById('root'));
+ReactDOM.render(React.createElement("div", {
+  className: 'aligner'
+}, React.createElement("div", null, React.createElement("div", {
+  className: 'text'
+}, "Coming Soon"), React.createElement("div", null, React.createElement("img", {
+  src: "dist/images/slug.png",
+  alt: "Slug"
+})))), document.getElementById('root'));
 
 },{"react":11,"react-dom":8}],2:[function(require,module,exports){
 /*
