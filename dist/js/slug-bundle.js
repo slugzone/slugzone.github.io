@@ -8,11 +8,13 @@ const ReactDOM = require('react-dom');
 ReactDOM.render(React.createElement("div", {
   className: 'aligner'
 }, React.createElement("div", null, React.createElement("div", {
-  className: 'text'
+  className: 'text coming-soon'
 }, "Coming Soon"), React.createElement("div", null, React.createElement("img", {
   src: "dist/images/slug.png",
   alt: "Slug"
-})))), document.getElementById('root'));
+}))), React.createElement("div", {
+  className: 'text signature'
+}, "slug.zone")), document.getElementById('root'));
 
 },{"react":11,"react-dom":8}],2:[function(require,module,exports){
 /*

@@ -24,6 +24,15 @@ html {
 .text {
     text-align: center;
     margin: 25px;
-    border: 2px solid;
     font-family: 'Press Start 2P', cursive;
+}
+
+.signature {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.coming-soon {
+    border: 2px solid #54e508;
 }
